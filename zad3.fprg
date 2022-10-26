@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s27094"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-26 03:26:43 PM"/>
+        <attribute name="created" value="czI3MDk0O0xBQjExMVctMDQ7MjAyMi0xMC0yNjswMzoyMzowNCBQTTsyMjM0"/>
+        <attribute name="edited" value="czI3MDk0O0xBQjExMVctMDQ7MjAyMi0xMC0yNjswMzoyNjo0MyBQTTsxOzIzNDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="liczba, wynik" type="Integer" array="False" size=""/>
+            <assign variable="wynik" expression="0"/>
+            <input variable="liczba"/>
+            <while expression="liczba &gt; 0">
+                <assign variable="wynik" expression="wynik + liczba%10"/>
+                <assign variable="liczba" expression="liczba/10"/>
+                <output expression="wynik" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
