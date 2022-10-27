@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="s27556"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-27 06:28:12 PM"/>
+        <attribute name="created" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswODo0ODowMCBBTTsyMjI1"/>
+        <attribute name="edited" value="czI3NTU2O0xBQjExMVctMTA7MjAyMi0xMC0yNDswOToxNzowMyBBTTs0OzIzMzY="/>
+        <attribute name="edited" value="ZG5vd2E7TEFQVE9QLUxVVkczRkdFOzIwMjItMTAtMjY7MDk6NDE6MDEgQU07MTsyOTky"/>
+        <attribute name="edited" value="bXJlZG87REVTS1RPUC1LU1FPQ0ozOzIwMjItMTAtMjc7MDY6Mjg6MTIgUE07MjszMDE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nplus1, n, b, i, a" type="Integer" array="False" size=""/>
+            <input variable="b"/>
+            <input variable="n"/>
+            <assign variable="nplus1" expression="0"/>
+            <for variable="i" start="1" end="n" direction="inc" step="1">
+                <input variable="a"/>
+                <assign variable="nplus1" expression="nplus1+(b-a)"/>
+            </for>
+            <output expression="nplus1+b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
